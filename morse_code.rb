@@ -26,8 +26,9 @@ class Morse
       words = sentence.split('  ')
       words.each { |n| print " #{decode_word(n)}" }
     end
-  end
+end
   
-  newMorse = Morse.new
-  
-  newMorse.split('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+newMorse = Morse.new
+puts newMorse.decode_char('..-')
+puts newMorse.decode_word('..- -..-')
+newMorse.split('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
