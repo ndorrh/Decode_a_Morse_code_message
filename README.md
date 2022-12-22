@@ -38,70 +38,46 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Morse code message Decoder\] ](#-morse-code-message-decoder-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack Server side](#tech-stack-server-side)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Morse code message Decoder] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This Application is use to decode morse code characters, entire words and morse code message it takes a string and return the corresponding character in upper case for example decode_char(".-") returns "A"), the corresponding word in upper case for example decode_word("-- -.--") returns "MY" and the corresponding message respectively.
 
-**[your_project__name]** is a...
-
+**[your_project__name]** Morse code message Decoder
 ## 🛠 Built With <a name="built-with"></a>
+- Ruby
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack">Server side</a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+> Ruby
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Method to decode Morse character]**
+- **[Method to decode morse word]**
+- **[Method to decode morse message]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +85,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link Not Available]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,13 +93,12 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+- Ruby installed on your machine
 
 <!--
 Example command:
@@ -137,7 +110,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder: https://github.com/ndorrh/Decode_a_Morse_code_message
 
 <!--
 Example commands:
@@ -150,7 +123,7 @@ Example commands:
 
 ### Install
 
-Install this project with:
+Open the cloned directory on Vscode
 
 <!--
 Example command:
@@ -163,7 +136,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+ On VScode on windows Right click inside the editor when the file is open to run the code
 
 <!--
 Example command:
@@ -175,7 +148,7 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+In the morse_code file Call any of the method and pass in a morse character or word or message depending on which method is called and right click then select run to execute the program
 
 <!--
 Example command:
@@ -185,49 +158,26 @@ Example command:
 ```
 --->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **ABUBAKAR UMMAR**
 
-👤 **Author1**
+- GitHub: [@Haywayaheadshot](https://github.com/Haywayaheadshot)
+- Twitter: [@haywayalive](https://twitter.com/haywayalive)
+- LinkedIn: [Abubakar Ummar](https://www.linkedin.com/in/abubakar-ummar/)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **NDORRH OSWALD EBU**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [ndorrh](https://github.com/ndorrh)
+- Twitter: [@NdorrhEbu](https://twitter.com/NdorrhEbu)
+- LinkedIn: [ndorrh](https://linkedin.com/in/ndorrhoswaldebu)
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,19 +195,16 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please give it a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank,
+- Microverse for the knowledge impacted
+- My stand up team, morning session team and coding partner
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +212,13 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **[What is a morse Code]**
 
-- **[Question_1]**
+  - Morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes, or dits and dahs
 
-  - [Answer_1]
+- **[Can I run This program On linux]**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - Yes. Just Clone the repository and open it with VSCODE 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,8 +226,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
